@@ -1,0 +1,144 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(238, 17, 17);
+    filter: drop-shadow(2px, 2px, 1px rgb(248, 252, 248));
+}
+
+h2 {
+    color: blueviolet;
+    
+}
+
+h3 {
+    color:rgb(206, 27, 176)
+}
+
+body {
+    margin: 1rem 5rem;
+    background-color: rgb(188, 204, 43);
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 1rem;
+    color: black;
+}
+
+#nav:hover {
+    color: #bccc2b;
+    background-color: rgb(15, 179, 15);
+}
+
+a {
+    color: rgb(15, 39, 250);
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+  
+a:active {
+    text-decoration: underline;
+}
+
+#div-bio {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
+    flex-wrap: none;
+    font-size: 1.5rem;
+    color: blue;
+    padding: 20px;
+    
+}
+
+.div-specials {
+    margin:auto;
+    width: 50%;
+    border: 3px white;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+#form {
+    margin:auto;
+    width: 50%;
+    border: 3px white;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+#table {
+    margin:auto;
+    width: 25%;
+    border: 3px white;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+#form:hover {
+    color: #bccc2b;
+    background-color: white;
+}
+
+#table:hover {
+    color: #bccc2b;
+    background-color: rgb(211, 38, 159);
+
+}
+
+#contact-title {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
+    flex-wrap: none;
+    font-size: 1.5rem;
+    color: blue;
+    padding: 20px;
+}
+.images {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+img {
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px white;
+    justify-content: center;
+    max-width: 90%;
+
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: rgb(177, 8, 8);
+}
+
+hr {
+    height: 2px;
+    background-color: red;
+    border: none;
+}
+
